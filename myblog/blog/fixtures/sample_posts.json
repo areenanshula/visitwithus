@@ -1,0 +1,22 @@
+[
+    {
+        "model": "blog.post",
+        "pk": 1,
+        "fields": {
+            "title": "Welcome to My Blog",
+            "content": "This is my first blog post. I'm excited to share my thoughts and experiences here!",
+            "author": 1,
+            "created_date": "2024-01-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 2,
+        "fields": {
+            "title": "Learning Django",
+            "content": "Django is an incredible framework. Here's what I've learned so far...",
+            "author": 1,
+            "created_date": "2024-01-02T10:00:00Z"
+        }
+    }
+]
