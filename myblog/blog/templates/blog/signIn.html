@@ -15,11 +15,11 @@
         <div class="d-flex justify-content-center align-items-center vh-100 vw-100">
             <div class="sign-in-form border border-2 bg-white rounded-4 p-4">
                 <div class="d-flex justify-content-center align-items-center gap-4">
-                    <img src="{% static 'main/logo.png' %}" alt="" class="sign-img">
+                    <img src="" alt="" class="sign-img">
                     <h6 class="logo-sign">VisitWithUS</h6>
                 </div>
                 <h2 class="fw-bold text-center mt-2">Sign In</h2>
-                <form action="{% url 'login' %}" method="post" class="m-0 p-0">
+                <form action="" method="post" class="m-0 p-0">
                     {% csrf_token %}
                     <div class="mt-4 mb-2 p-0">
                         {{ form.non_field_errors}}
